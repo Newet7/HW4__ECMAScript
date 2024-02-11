@@ -1,0 +1,23 @@
+.user-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+.user {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.user span {
+  display: block;
+  margin-bottom: 5px;
+}
+.delete-btn {
+  cursor: pointer;
+  color: red;
+}
+
+img {
+  max-width: 360px;
+  max-height: 360px;
+  object-fit: cover;
+}
